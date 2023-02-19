@@ -1,0 +1,15 @@
+body {
+    font-size: 15pt;
+    backdrop-filter: blur;
+    background-color: lightpink
+}
+.api {
+  color: olive;
+}
+#user {
+  text-align: center ;
+  font-size: 80px;
+  border: 3px;
+  padding-top: 5px;
+  font-family: cursive
+}
