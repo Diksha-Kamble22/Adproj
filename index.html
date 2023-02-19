@@ -1,29 +1,126 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>API data fetch</title>
-
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <title>My App</title>
 </head>
 
 <body>
-  <nav>
-   
-  </nav>
-  <a href="hello.html">home</a>
- 
-  <br>
-  <a href="todolist\todo.html"></a>
- 
-  <h3>  <u><i>TASK : get the api data on Frontend </i> </u></h3>
-  <h1 style ="color: ghostwhite" id="user">USERs :</h1>
-  <ul class="api"></ul>
-
-  <script src="main.js">
-  </script>
+  <i class="uil uil-angle-up up"></i>
+  <header>
+    <h2>Portfolio..</h2>
+    <ul>
+      <li><a href="#home" id="nav1">Home</a></li>
+      <li><a href="#services" id="nav2">Services</a></li>
+      <li><a href="#skills" id="nav3">Skills</a></li>
+      <li><a href="#contact" id="nav4">Contact</a></li>
+      <li>
+        <div class="switch">
+          <div class="switchcircle">
+            <ion-icon name="moon-outline"></ion-icon>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <i class="uil uil-bars menu"></i>
+  </header>
+  <section id="home">
+    <div class="left">
+      <span>Hello, I'm Youssef</span>
+      <h3>Web Developer</h3>
+      <span class="des">I Develop And Design WebSites.</span>
+      <button><a href="#skills">Veiw My Skills</a></button>
+    </div>
+    <div class="right">
+      <img src="https://thumbs.dreamstime.com/b/girl-works-computer-call-center-190709985.jpg">
+    </div>
+    <h1 class="bgtitle">Portfolio..</h1>
+    <h1 class="ya">YA</h1>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+  </section>
+  <section id="services">
+    <h1 class="title">Services</h1>
+    <div class="cards">
+      <div class="card">
+        <div class="bgcard"></div>
+        <ion-icon name="logo-html5" class="html"></ion-icon>
+        <h3>Web Development</h3>
+        <p>WEB DEVELOPMENT IS IMPORTANT NOW!!<br>use for forming structure of web.</p>
+      </div>
+      <div class="card">
+        <div class="bgcard"></div>
+        <ion-icon name="logo-css3" class="css"></ion-icon>
+        <h3>Web Design</h3>
+        <p>Developing Websites Needs To CSS For Design!!<br>CSS stands for Cascading style sheet</p>
+      </div>
+      <div class="card">
+        <div class="bgcard"></div>
+        <ion-icon name="logo-javascript" class="js"></ion-icon>
+        <h3>Web Applications</h3>
+        <p>For Make Web Application You Need To JavaScript!!<br>contents are included <ol><li>Bootstrap</li><li>Api</li></ol> logically gives the meaning to web.</p>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <h1 class="title">Skills</h1>
+    <div class="content">
+      <div class="skills">
+        <div class="skill">
+          <span class="htmlbar">HTML</span><br>
+          <div class="bar"></div>
+          <div class="activebar" id="bar1"></div>
+        </div>
+        <div class="skill">
+          <span class="cssbar">CSS</span><br>
+          <div class="bar"></div>
+          <div class="activebar" id="bar2"></div>
+        </div>
+        <div class="skill">
+          <span class="jsbar">JavaScript</span><br>
+          <div class="bar"></div>
+          <div class="activebar" id="bar3"></div>
+        </div>
+      </div>
+      <div class="para">
+        <h3>My Skills!!</h3>
+        <p><br><li>I have sufficient knowledge about frontend i.e HTML ,CSS ,JAVASCRIPT</li><LI>I also have interest in Database i.e ORACLE SQL(course completed)   </LI>
+        <i></i><br>I have done projects using the following:</i></p>
+        <div class="proj"><a href="https://diksha-kamble22.github.io/form_filling_format/" style="color:blue ;border:3px; background-color: salmon ;font-family:cursive" >https://diksha-kamble22.github.io/form_filling_format/</a><br>
+        <a href=" https://diksha-kamble22.github.io/css_external_proj/"style="color:blue ;background-color: #109be0 ;font-family:cursive; pointer:hover" > https://diksha-kamble22.github.io/css_external_proj/</a><br>
+        <a href=" https://diksha-kamble22.github.io/api_fetch/"style="color:blue ;background-color: #c9cf5d ;font-family:cursive; pointer:hover" > https://diksha-kamble22.github.io/api_fetch/</a></div>
+      </div>
+    </div>
+    <h1 class="bgskill">Skills</h1>
+    <div class="circle4"></div>
+    <div class="circle5"></div>
+  </section>
+  <section id="contact">
+    <h1 class="title">Contact</h1>
+    <div class="cards">
+      <div class="card">
+        <ion-icon name="call-outline"></ion-icon>
+        <h3>Phone</h3>
+        <p>8766056438</p>
+      </div>
+      <div class="card">
+        <ion-icon name="mail-outline"></ion-icon>
+        <h3>Email</h3>
+        <p>dik216@gmail.com</p>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https: // unpkg .com / ionicons @ 5.5.2 / dist / ionicons / ionicons.js"></script>
+  <h2 class="bgtitle">@Diksha</h2>
 </body>
+
 </html>
